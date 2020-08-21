@@ -1,0 +1,40 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  object-fit: cover;
+}
+
+.bg-red {
+  background-color: #f74334;
+}
+
+.logo {
+  width: 120px;
+}
+
+.main-logo {
+  width: 410px;
+}
+
+.logo img {
+  object-fit: unset;
+}
+
+.nav-right {
+  padding-right: 10px;
+}
+
+@media (min-width: 768px) {
+  /* NAVBAR */
+  .enlarge {
+    font-size: 25px;
+  }
+}
+
+span:hover {
+  color: #f74334;
+}
