@@ -1,7 +1,7 @@
 # Newsweek-Clone-Bootstrap-4.5
 
-> This project consists of building  a replica of the news site Newsweek.com using the Bootstrap 4.5 framework.
-![screenshot-127 0 0 1_5500-2020 08 13-21_53_12]()
+This project consists of building  a replica of the news site Newsweek.com using the Bootstrap 4.5 framework.
+![screenshot](./screenshot.png)
 
 
 Additional description about the project and its features.
@@ -14,7 +14,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://raw.githack.com/IjayAbby/Newsweek-Clone-Bootstrap-4.5/development/index.html)
 
 
 ## Getting Started
@@ -76,7 +76,7 @@ Give a ⭐️ if you like this project!
 - Twitter Bootstrap Documentation.
 - The Odin Project.
 - W3Schools.
--newsweek.com
+- newsweek.com
 
 ## 📝 License
 
