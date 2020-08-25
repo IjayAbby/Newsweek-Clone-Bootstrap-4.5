@@ -354,7 +354,13 @@ input[type="text"i] {
   object-fit: unset;
 }
 
+.footer-icon {
+  width: 250px;
+}
+
 .footer-p {
   font-size: 12px;
   padding-left: 110px;
 }
+
+
