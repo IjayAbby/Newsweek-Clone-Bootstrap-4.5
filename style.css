@@ -34,13 +34,6 @@ img {
   padding-right: 10px;
 }
 
-@media (min-width: 768px) {
-  /* NAVBAR */
-  .enlarge {
-    font-size: 25px;
-  }
-}
-
 .row {
   display: -ms-flexbox;
   display: flex;
@@ -58,6 +51,10 @@ span:hover {
 
 main {
   overflow-x: hidden;
+}
+
+main::-webkit-scrollbar {
+  display: none;
 }
 
 /*
@@ -182,6 +179,10 @@ p {
   height: 70px;
 }
 
+.mag-img {
+  height: 250px;
+}
+
 .debate-card2 {
   width: 80%;
   margin: 0 auto;
@@ -227,7 +228,7 @@ ul {
   background-color: rgba(255, 255, 255, 0.9);
 }
 
-input[type="text" i] {
+input[type="text"i] {
   padding: 0;
 }
 
@@ -246,7 +247,7 @@ input[type="text" i] {
   left: 120px;
 }
 
-@media only screen and(max-width: 768px) {
+@media only screen and (max-width: 768px) {
   img {
     width: 100%;
   }
@@ -273,6 +274,20 @@ input[type="text" i] {
   .newsletter {
     margin: 60px 0;
   }
+
+  .sub-row {
+    min-height: fit-content;
+  }
+
+  .sub-section {
+    display: flex;
+  }
+
+  .text-section {
+    position: relative;
+    top: 70px;
+    left: -100px;
+  }
 }
 
 @media (max-width: 991px) and(min-width: 768px) {
@@ -295,6 +310,11 @@ input[type="text" i] {
   .newsletter {
     margin: 60px 0;
   }
+
+  /* NAVBAR */
+  .enlarge {
+    font-size: 25px;
+  }
 }
 
 @media only screen and(min-width: 992px) {
@@ -311,6 +331,11 @@ input[type="text" i] {
   .subs-text {
     left: -80px;
     top: 50px;
+  }
+
+  /* NAVBAR */
+  .enlarge {
+    font-size: 25px;
   }
 }
 
